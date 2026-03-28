@@ -51,27 +51,16 @@ Hardware Requirements:
 	•	Any modern computer system
 
 ⸻
- Field Name
-Data Type
-Description
-ID
-INTEGER
-Primary Key (Auto Increment)
-Date
-DATETIME
-Date of expense
-Payee
-TEXT
-Receiver of payment
-Description
-TEXT
-Purpose of expense
-Amount
-FLOAT
-Amount spent
-ModeOfPayment
-TEXT
-Payment method
+ ### Table: ExpenseTracker
+
+| Field Name     | Data Type | Description                  |
+|----------------|----------|------------------------------|
+| ID             | INTEGER  | Primary Key (Auto Increment) |
+| Date           | DATETIME | Date of expense              |
+| Payee          | TEXT     | Receiver of payment          |
+| Description    | TEXT     | Purpose of expense           |
+| Amount         | FLOAT    | Amount spent                 |
+| ModeOfPayment  | TEXT     | Payment method               |
 2. User Interface Design
 
 The application consists of three main sections:
